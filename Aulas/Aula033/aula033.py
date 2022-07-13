@@ -25,6 +25,7 @@ print(numeros)
 def myfunction(n):
     return abs(n - 50)
 
-numeros.sort(key = myfunction())
+numeros.sort(key = myfunction)
 
 print(numeros)
+
