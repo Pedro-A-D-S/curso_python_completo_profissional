@@ -29,3 +29,15 @@ numeros.sort(key = myfunction)
 
 print(numeros)
 
+# classificar sem a distinção de maiúsculo e minúsculo
+nomes.sort(key = str.lower)
+
+print(nomes)
+
+# inverter a ordem dos itens na lista
+nomes.reverse()
+numeros.reverse()
+
+print(nomes)
+print(numeros)
+
